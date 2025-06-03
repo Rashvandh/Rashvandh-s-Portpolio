@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - AI Resume Analyzer</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+  <header id="header" class="header d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="page-title" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+        <h1>Portfolio Details</h1>
+      </div>
+    </div>
+
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": { "delay": 5000 },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/resume-analyzer-1.jpg" alt="AI Resume Analyzer Screenshot">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/phishing-tool-1.jpg" alt="Phishing Email Detection Tool Screenshot">
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>AI Resume Analyzer & Job Recommendation System</h2>
+              <p>
+                This project is a full-stack web application designed to help job seekers improve their resumes and discover relevant job opportunities. 
+                The system leverages Natural Language Processing (NLP) and Machine Learning to analyze resume content and recommend best-fit job roles.
+              </p>
+              <p>
+                Key features include AI-driven resume parsing, skill extraction, job-role matching, and an intuitive dashboard. Built with HTML, CSS, JavaScript (frontend), and Java (backend), it offers a seamless user experience and real-time results.
+              </p>
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>“This project enhanced my understanding of AI applications in career services and helped me strengthen my full-stack development skills.”</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Your Name</h3>
+                  <h4>Developer</h4>
+                </div>
+              </div>
+              <p>
+                Technologies used: HTML, CSS, JavaScript, Java, and ML libraries for recommendation logic. The backend also integrates with job APIs for real-time data.
+              </p>
+
+              <hr class="my-5">
+
+              <h2>Phishing Email Detection Tool</h2>
+              <p>
+                A cybersecurity tool designed to identify and flag potential phishing emails using content analysis and VirusTotal API integration. The tool parses email content and attachments to detect malicious links and attachments in real time.
+              </p>
+              <p>
+                The system utilizes both front-end and back-end logic to visualize results and alert users. Designed with a focus on security awareness and integrated threat analysis.
+              </p>
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>“Building this project helped deepen my understanding of real-world cybersecurity threats and API integration techniques.”</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Your Name</h3>
+                  <h4>Developer</h4>
+                </div>
+              </div>
+              <p>
+                Technologies used: HTML, CSS, JavaScript, Java, VirusTotal API
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Full-Stack Web Application</li>
+                <li><strong>Client</strong>: Personal Project</li>
+                <li><strong>Project date</strong>: March 2025</li>
+                <li><strong>Project URL</strong>: <a href="#">www.quantumdraft.com/resume-ai</a></li>
+                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+              </ul>
+              <ul class="mt-4">
+                <li><strong>Category</strong>: Cybersecurity Tool</li>
+                <li><strong>Client</strong>: Personal Project</li>
+                <li><strong>Project date</strong>: February 2025</li>
+                <li><strong>Project URL</strong>: <a href="#">www.quantumdraft.com/phishing-detector</a></li>
+                <li><a href="#" class="btn-visit align-self-start">Visit Tool</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Your Name</h3>
+      <p>AI enthusiast and full-stack developer passionate about building smart, scalable, and impactful web applications.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-skype"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Your Name</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
